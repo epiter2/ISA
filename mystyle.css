@@ -1,15 +1,16 @@
-
+/* Stilul pentru bara stanga */
 .bara_stanga
 {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    top: 0; /* Stay at the top */
+    height: 100%; /* Inaltime maxima */
+    width: 160px; /* Setez latima barei stanga */
+    position: fixed; /* Bara fixa */
+    top: 0; /* Sta sus */
     left: 0;
-    background-color: rgb(150, 154, 158); /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: rgb(150, 154, 158); 
+    overflow-x: hidden; /* Dezactiveaza scrolul orizontal */
     padding-top: 20px;
 }
+/* Stitlul pentru link-urile din bara stanga */
 .bara_stanga a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -18,9 +19,12 @@
     display: block;
     text-align:center;
 }
+/* Stilul pentru link-urile din bara stanga */
+/* Atunci cand pozitionam mouse-ul deasupra */
 .bara_stanga a:hover {
     color: #a7f713;
 }
+/* Stilul pentru bara sus */
 .bara_sus
 {
     height: 120px;
@@ -31,6 +35,7 @@
     padding-bottom: 20px;
     border-bottom: 15px;
 }
+/* Stilul pentru Zona principala a paginii HTML */
 .main {
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 10px;
