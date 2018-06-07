@@ -1,0 +1,43 @@
+/* Stilul pentru bara stanga */
+.bara_stanga
+{
+    height: 100%; /* Inaltime maxima */
+    width: 160px; /* Setez latima barei stanga */
+    position: fixed; /* Bara fixa */
+    top: 0; /* Sta sus */
+    left: 0;
+    background-color: rgb(150, 154, 158); 
+    overflow-x: hidden; /* Dezactiveaza scrolul orizontal */
+    padding-top: 20px;
+}
+/* Stitlul pentru link-urile din bara stanga */
+.bara_stanga a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #191a19;
+    display: block;
+    text-align:center;
+}
+/* Stilul pentru link-urile din bara stanga */
+/* Atunci cand pozitionam mouse-ul deasupra */
+.bara_stanga a:hover {
+    color: #a7f713;
+}
+/* Stilul pentru bara sus */
+.bara_sus
+{
+    height: 120px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    right: 0px;
+    padding-bottom: 20px;
+    border-bottom: 15px;
+}
+/* Stilul pentru Zona principala a paginii HTML */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
